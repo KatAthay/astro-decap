@@ -4,6 +4,7 @@ import Card from '../components/Card.astro';
 ---
 
 <Layout title="Welcome to Astro.">
+
 	<main>
 		<svg
 			class="astro-a"
@@ -121,3 +122,70 @@ import Card from '../components/Card.astro';
 		padding: 0;
 	}
 </style>
+
+
+---
+// Import necessary components and layouts
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+import AdminNavigation from '../components/AdminNavigation.astro'; // Hypothetical component for admin navigation
+---
+
+<!-- <Layout title="Admin Dashboard - Decap Blog">
+	<AdminNavigation />
+	<main>
+		<h1>Admin Dashboard</h1>
+		<p>Welcome to the Decap Blog admin panel. Use the navigation to manage posts, view analytics, or update settings.</p>
+		
+		<!-- Example cards for admin functionalities -->
+		<!-- <ul role="list" class="link-card-grid">
+			<Card
+				href="/admin/posts"
+				title="Manage Posts"
+				body="Create, edit, and delete blog posts."
+			/>
+			<Card
+				href="/admin/users"
+				title="User Management"
+				body="Manage user accounts and permissions."
+			/>
+			<Card
+				href="/admin/settings"
+				title="Site Settings"
+				body="Update site configurations and preferences."
+			/>
+			<Card
+				href="/admin/analytics"
+				title="View Analytics"
+				body="Check your site's performance and user engagement."
+			/>
+		</ul>
+	</main>
+</Layout>
+
+<style>
+	main {
+		margin: auto;
+		padding: 1rem;
+		width: 80%;
+		max-width: calc(100% - 2rem);
+		color: var(--text-color);
+		font-size: 16px;
+		line-height: 1.6;
+		background: var(--background-color);
+		border-radius: 8px;
+		box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+	}
+	h1 {
+		font-size: 2rem;
+		font-weight: 700;
+		text-align: center;
+		margin-bottom: 2rem;
+	}
+	.link-card-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+		gap: 1rem;
+		padding: 0;
+	}
+</style> --> 
